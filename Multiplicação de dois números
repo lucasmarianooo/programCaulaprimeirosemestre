@@ -1,0 +1,22 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main (int argc, char *argv[])
+{
+	int num1, num2, resultado;
+	
+	printf("digite um numero: ");
+	scanf("%d", &num1);
+	printf("digite outro numero: ");
+	scanf("%d", &num2);
+	
+	resultado = num1 * num2;
+	
+	printf("o resultado e: %d \n", resultado );
+	
+	
+	system ("PAUSE");
+	return 0;
+}
